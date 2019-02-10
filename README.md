@@ -1,2 +1,4 @@
 # alim1406.github.io
-Daylong game 2.0
+# Daylong game 2.0
+[Ссылка на первую версию](https://scratch.mit.edu/projects/285751534/)\
+[Ссылка на игру (в разработке)](alim1406.github.io/daylong)\
