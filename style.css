@@ -5,7 +5,8 @@ html{
     -webkit-text-size-adjust:100%
 }
 body{
-    margin:0
+    margin:0;
+    display: block;
 }
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{
     display:block
@@ -14,16 +15,19 @@ summary{
     display:list-item
 }
 
-.long{
- -webkit-box-shadow: 22px 14px 40px 16px rgba(189,28,189,0.66);
--moz-box-shadow: 22px 14px 40px 16px rgba(189,28,189,0.66);
-box-shadow: 22px 14px 40px 16px rgba(189,28,189,0.66);
-float:right;
-}
 .left{
-border-radius: 74px 74px 74px 74px;
--moz-border-radius: 74px 74px 74px 74px;
--webkit-border-radius: 74px 74px 74px 74px;
-border: 0px solid #ffffff;
-float:left;
+    display: table-cell;
+    float:left;
+    width: 500px;
+    border-radius: 74px 74px 74px 74px;
+    -moz-border-radius: 74px 74px 74px 74px;
+    -webkit-border-radius: 74px 74px 74px 74px;
+    border: 0px solid #ffffff;
+}
+.long{
+    display: table-cell;
+    float:right;
+    -webkit-box-shadow: 22px 14px 40px 16px rgba(189,28,189,0.66);
+    -moz-box-shadow: 22px 14px 40px 16px rgba(189,28,189,0.66);
+    box-shadow: 22px 14px 40px 16px rgba(189,28,189,0.66);
 }
